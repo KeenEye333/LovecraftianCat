@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.rcbomb69.lovecraftiancat.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tomb"
+        android:name="com.rcbomb69.lovecraftiancat.ui.tomb.TombFragment"
+        android:label="The Tomb"
+        tools:layout="@layout/tomb_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_dagon"
+        android:name="com.rcbomb69.lovecraftiancat.ui.dagon.DagonFragment"
+        android:label="Dagon"
+        tools:layout="@layout/dagon_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_polaris"
+        android:name="com.rcbomb69.lovecraftiancat.ui.polaris.PolarisFragment"
+        android:label="Polaris"
+        tools:layout="@layout/polaris_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_wallsleep"
+        android:name="com.rcbomb69.lovecraftiancat.ui.thewallofsleep.TheWallOfSleepFragment"
+        android:label="Polaris"
+        tools:layout="@layout/the_wall_of_sleep_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_memory"
+        android:name="com.rcbomb69.lovecraftiancat.ui.memory.MemoryFragment"
+        android:label="Memory"
+        tools:layout="@layout/memory_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_oldbug"
+        android:name="com.rcbomb69.lovecraftiancat.ui.oldbugs.OldBugsFragment"
+        android:label="Old Bugs"
+        tools:layout="@layout/old_bugs_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_juanromero"
+        android:name="com.rcbomb69.lovecraftiancat.ui.thetransitionofjuanromero.TheTransitionofJuanRomeroFragment"
+        android:label="The Transition Of Juan Romero"
+        tools:layout="@layout/the_transitionof_juan_romero_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_whiteship"
+        android:name="com.rcbomb69.lovecraftiancat.ui.thewhiteship.TheWhiteShipFragment"
+        android:label="The White Ship"
+        tools:layout="@layout/the_white_ship_fragment" />
+
+    <fragment
+        android:id="@+id/nav_doomofsarnath"
+        android:name="com.rcbomb69.lovecraftiancat.ui.thedoomcametosarnath.TheDoomCameToSarnathFragment"
+        android:label="The Doom Came To Sarnath"
+        tools:layout="@layout/the_doom_came_to_sarnath_fragment" />
+
+    <fragment
+        android:id="@+id/nav_statementofrandolph"
+        android:name="com.rcbomb69.lovecraftiancat.ui.thestatementofrandolphcarter.TheStatementOfRandolphCarterFragment"
+        android:label="The Statement Of Randolph Carter"
+        tools:layout="@layout/the_statement_of_randolph_carter_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_terribleoldman"
+        android:name="com.rcbomb69.lovecraftiancat.ui.theterribleoldman.TheTerribleOldManFragment"
+        android:label="The Terrible Old Man"
+        tools:layout="@layout/the_terrible_old_man_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_tree"
+        android:name="com.rcbomb69.lovecraftiancat.ui.thetree.TheTreeFragment"
+        android:label="The Tree"
+        tools:layout="@layout/the_tree_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_thecats"
+        android:name="com.rcbomb69.lovecraftiancat.ui.thecatsofulthar.TheCatsOfUltharFragment"
+        android:label="The Cats Of Ulthar"
+        tools:layout="@layout/the_cats_of_ulthar_fragment" />
+
+
+
+
+
+</navigation>

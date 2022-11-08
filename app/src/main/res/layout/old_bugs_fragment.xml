@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/oldbugs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.oldbugs.OldBugsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+                android:text="Old Bugs"
+                android:fontFamily="cursive"
+                android:textSize="26sp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs1"/>
+
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs2"/>
+
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs3"/>
+
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs4"/>
+
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs5"/>
+
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs6"/>
+
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs7"/>
+
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs8"/>
+
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs9"/>
+
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs10"/>
+
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs11"/>
+
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/oldbugs12"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

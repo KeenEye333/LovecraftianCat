@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.tomb.TombFragment">
+
+    <ScrollView
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        
+        android:text="The Tomb"
+        android:fontFamily="cursive"
+        android:textSize="26sp"
+        android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb1"/>
+
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb2"/>
+
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb3"/>
+
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb4"/>
+
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb5"/>
+
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb6"/>
+
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb7"/>
+
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb8"/>
+
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb9"/>
+
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb10"/>
+
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb11"/>
+
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb12"/>
+
+
+            <TextView
+                android:id="@+id/txt13"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb13"/>
+
+
+            <TextView
+                android:id="@+id/txt14"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@id/txt13"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb14center"/>
+
+
+            <TextView
+                android:id="@+id/txt15"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                app:layout_constraintTop_toBottomOf="@id/txt14"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb15"/>
+
+
+            <TextView
+                android:id="@+id/txt16"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                app:layout_constraintTop_toBottomOf="@id/txt15"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb16"/>
+
+
+
+            <TextView
+                android:id="@+id/txt17"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                app:layout_constraintTop_toBottomOf="@id/txt16"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb17"/>
+
+
+            <TextView
+                android:id="@+id/txt18"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                app:layout_constraintTop_toBottomOf="@id/txt17"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb18"/>
+
+
+
+            <TextView
+                android:id="@+id/txt19"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                app:layout_constraintTop_toBottomOf="@id/txt18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb19"/>
+
+
+            <TextView
+                android:id="@+id/txt20"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                app:layout_constraintTop_toBottomOf="@id/txt19"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:text="@string/tmb20"/>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

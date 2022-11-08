@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rcbomb69.lovecraftiancat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TheCatsOfUlthar"></activity>
+        <activity android:name=".Index" />
+        <activity android:name=".TheTree" />
+        <activity android:name=".TheTerribleOldMan" />
+        <activity android:name=".TheStatementOfRandolphCarter" />
+        <activity android:name=".TheDoomCameToSarnath" />
+        <activity android:name=".TheWhiteShip" />
+        <activity android:name=".TheTransitionofJuanRomero" />
+        <activity android:name=".OldBugs" />
+        <activity android:name=".Memory" />
+        <activity android:name=".TheWallOfSleep" />
+        <activity android:name=".Polaris" />
+        <activity android:name=".dagon" />
+        <activity android:name=".Tomb" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

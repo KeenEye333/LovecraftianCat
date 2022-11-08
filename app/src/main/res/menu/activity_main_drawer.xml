@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_tomb"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The Tomb" />
+
+
+        <item
+            android:id="@+id/nav_dagon"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="Dagon"/>
+
+
+        <item
+            android:id="@+id/nav_polaris"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="Polaris"/>
+
+
+        <item
+            android:id="@+id/nav_wallsleep"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="Beyond the wall of sleep"/>
+
+
+        <item
+            android:id="@+id/nav_memory"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="Memory"/>
+
+
+        <item
+            android:id="@+id/nav_oldbug"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="Old Bugs"/>
+
+        <item
+            android:id="@+id/nav_juanromero"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The Transition Of Juan Romero"/>
+
+
+        <item
+            android:id="@+id/nav_whiteship"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The White Ship"/>
+
+
+        <item
+            android:id="@+id/nav_doomofsarnath"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The Doom Came To Sarnath"/>
+
+
+        <item
+            android:id="@+id/nav_statementofrandolph"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The Statement Of Randolph Carter"/>
+
+
+        <item
+            android:id="@+id/nav_terribleoldman"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The Terrible Old Man"/>
+
+
+        <item
+            android:id="@+id/nav_thetree"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The Tree"/>
+
+
+        <item
+            android:id="@+id/nav_thecats"
+            android:icon="@drawable/ic_book_white_24dp"
+            android:title="The Cats Of Ulthar"/>
+
+
+    </group>
+</menu>
